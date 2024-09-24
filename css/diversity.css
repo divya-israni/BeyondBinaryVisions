@@ -99,6 +99,7 @@ body {
 }
 
 .definition p, .education p, .resources p {
+    width: 200px;
     color: #666;
 }
 .resources ul {
