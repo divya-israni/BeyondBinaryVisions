@@ -87,6 +87,9 @@ body {
 .definition, .education, .resources {
     padding: 20px;
     text-align: center;
+    box-sizing: border-box; 
+    max-width: 100%;  
+    overflow: hidden;
 }
 
 .definition img, .education img, .resources img {
@@ -99,8 +102,9 @@ body {
 }
 
 .definition p, .education p, .resources p {
-    width: 200px;
     color: #666;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .resources ul {
     list-style-type: none;
