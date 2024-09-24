@@ -89,7 +89,7 @@ body {
     text-align: center;
     box-sizing: border-box; 
     max-width: 100%;  
-    overflow: hidden;
+    height: auto;
 }
 
 .definition img, .education img, .resources img {
