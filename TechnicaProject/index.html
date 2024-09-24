@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Beyond Binary Visions</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+  <link href="css/home.css" rel="stylesheet" type="text/css" />
+  
+  <!-- in order for the nav stuff to work we need to link to jquery, bc that is what allows us to connect html elements to our script -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+  
+<body>
+  <!--nav bar-->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <section class="head">
+    <img src="img/orange.png" class="banner">
+
+    <div class="onTop">
+      <img src="img/logoeye.png" alt="logo">
+
+      <div class="headText">
+        <h1> Beyond Binary Visions </h1>
+        <p>Crafting Inclusive Career Paths and Shaping Tomorrows Leaders</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="aboutUs">
+    <div>
+      <h2> About Us </h2>
+      <p> Our interpretation of the theme "Create your Reality" involves helping underrepresented individuals learn how to get involved in competitive fields to take charge of their own future. </p>
+    </div>
+    
+    <img src="img/technica logo.png" alt="technica">
+  </section>
+
+
+
+<section class="explore">
+  <h2>Explore Career Paths</h2>
+  <p>Craft Your Path By Clicking Below</p>
+  
+  <div class="sweTab">
+    <a href="https://technicaproject.caitlynnilo.repl.co/software.html"><img src="img/swe.jpg" alt="SWE"></a>
+    <p>Software Engineering</p>
+  </div>
+
+  <div class="uiuxTab">
+    <a href="https://technicaproject.caitlynnilo.repl.co/uiux.html"><img src="img/ux.jpg" alt="UI UX"></a>
+    <p>UI/UX Design</p>
+  </div>
+  
+  <div class="cyberTab">
+    <a href="https://technicaproject.caitlynnilo.repl.co/cybersecurity.html"><img src="img/cyber.jpg" alt="Cyber Security"></a>
+    <p>Cybersecurity</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <script>
+    // this here is basically saying, at div #nav-placeholder, paste everything that we have from the nav.html file
+    // this way, you don't need to have multiple navs on each page, but rather one place to edit the nav bar, which js will look at each time
+    
+      $(function(){
+          $("#nav-placeholder").load("nav.html");
+      });
+
+    // also there was more code on my example i showed u but those were for different things that are irrelevant in this project
+  </script>
+</body>
+</html>
