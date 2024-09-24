@@ -1,0 +1,113 @@
+/* body */
+
+html,
+body {
+  background-color: #E2EFDE;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* section: head */
+
+.head {
+  width: 100%;
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  height: 30vw;
+  margin: 0;
+  padding: 0;
+}
+
+.onTop {
+  width: 70%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: .5vw;
+}
+
+.onTop img {
+  width: 20vw;
+  height: 20vw;
+  margin: auto;
+}
+
+.headText h1 {
+  font-size: 5vw;
+}
+
+.headText p {
+  font-size: 2.2vw;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.aboutUs {
+  background-color: lightyellow;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 3.5vw;
+  padding: 3vw;
+}
+
+.aboutUs img {
+  margin: auto;
+}
+
+#definition p {
+  font-size: 2vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.8vw;
+}
+
+.aboutImg {
+  padding: 5vw;
+  width: 50%;
+  height: 25vw;
+  float: left;
+}
+
+.explore {
+  text-align: center;
+  padding: 5vw;
+  width: 100%;
+  height: 40vw;
+  float: left;
+}
+
+.sweTab {
+  width: 29%;
+  height: 40vw;
+  float: left;
+}
+
+.uiuxTab {
+  width: 29%;
+  height: 40vw;
+  float: left;
+}
+
+.cyberTab {
+  width: 29%;
+  height: 40vw;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+  padding: 2vw;
+}
