@@ -33,7 +33,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8; /* Set your desired background color */
-    overflow-y: auto;
 }
 .head {
   width: 100%;
@@ -101,6 +100,8 @@ body {
 
 .definition p, .education p, .resources p {
     color: #666;
+    max-width: 90%; 
+    margin: 0 auto;
 }
 
 
